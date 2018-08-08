@@ -11,15 +11,15 @@ embeddingDims(x)
 }
 \value{
 A numeric vector with the embedding dimensions used for compute a
- chaotic invariant.
+chaotic invariant.
 }
 \description{
 Get the embedding dimensions used for compute a chaotic invariant.
 }
+\references{
+H. Kantz  and T. Schreiber: Nonlinear Time series Analysis 
+(Cambridge university press)
+}
 \author{
 Constantino A. Garcia
 }
-\references{
-H. Kantz  and T. Schreiber: Nonlinear Time series Analysis (Cambridge university press)
-}
-

@@ -7,23 +7,23 @@
 nlOrder(x)
 }
 \arguments{
-\item{x}{An object containing all the information needed for the estimate of
+\item{x}{An object containing all the information needed for the estimate of 
 the chaotic invariant.}
 }
 \value{
-A numeric vector with the radius of the neighborhoods  used for the  computations of 
-a chaotic invariant.
+A numeric vector with the radius of the neighborhoods used for the 
+computations of a chaotic invariant.
 }
 \description{
 Get the order of the nonlinear chaotic invariant.
 }
-\author{
-Constantino A. Garcia
-}
 \references{
-H. Kantz  and T. Schreiber: Nonlinear Time series Analysis (Cambridge university press)
+H. Kantz  and T. Schreiber: Nonlinear Time series Analysis 
+(Cambridge university press)
 }
 \seealso{
 \code{\link{corrDim}}, \code{\link{sampleEntropy}}
 }
-
+\author{
+Constantino A. Garcia
+}

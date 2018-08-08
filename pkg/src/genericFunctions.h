@@ -9,11 +9,12 @@
 #define MIN(a,b) (a)<(b) ? (a) : (b)
 
 
-//this function modifies the C mod function in order to return only positives
-//values
-static inline int MOD(int x,int m){
- return ( ((x%m) + m) %m);
+/* Modifies the C mod function in order to return only positives values */
+inline int positive_modulo(int x, int m) {
+  return (((x % m) + m) % m);
 }
+
+
 
 //computes the max distance between the n1-th and n2-th takens vector.
 //the neighbourhood is defined in a embeddingD-dimension space
